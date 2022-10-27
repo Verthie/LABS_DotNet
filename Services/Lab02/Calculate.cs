@@ -1,4 +1,4 @@
-﻿namespace WebAPI.Services
+﻿namespace WebAPI.Services.Lab02
 {
     public class Calculate
     {
@@ -23,12 +23,12 @@
         private int Value { get; set; }
         public void Increase(int value)
         {
-            this.Value += value;
+            Value += value;
         }
 
         public void Decrease(int value)
         {
-            this.Value -= value;
+            Value -= value;
         }
 
         public int GetValue()

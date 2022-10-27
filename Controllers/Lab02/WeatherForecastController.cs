@@ -1,7 +1,8 @@
 using Microsoft.AspNetCore.Mvc;
 using WebAPI.Services;
+using WebAPI.Services.Lab02;
 
-namespace WebAPI.Controllers
+namespace WebAPI.Controllers.Lab02
 {
     [ApiController]
     [Route("[controller]/[action]")]
@@ -35,7 +36,7 @@ namespace WebAPI.Controllers
 
 
         [HttpGet]
-        //public List<int> Getalue()   // zwracanie wiekszej ilosci wartosci
+        //public List<int> GetValue()   // zwracanie wiekszej ilosci wartosci
         public int GetValue()
         {
             var calculateInstance = new Calculate(23);
