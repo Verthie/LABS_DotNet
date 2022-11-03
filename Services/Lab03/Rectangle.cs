@@ -11,6 +11,8 @@
         public static Rectangle operator + (Rectangle a, Rectangle b)
         {
             return new Rectangle(a.Width + b.Width, a.Height + b.Height);
-        } 
+        }
+
+        override getShorterSide()
     }
 }
