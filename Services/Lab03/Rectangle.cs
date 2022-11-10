@@ -13,6 +13,9 @@
             return new Rectangle(a.Width + b.Width, a.Height + b.Height);
         }
 
-        override getShorterSide()
+        public override int GetShorterSide()
+        {
+            return base.GetShorterSide();
+        }
     }
 }
